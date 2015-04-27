@@ -1,0 +1,81 @@
+----------------------------PUBLICLY VERIFIABLE SECRET SHARING-------------------------------------
+------------------------------------------------------
+
+Under the Guidence of: Prof Dr. V.Ch. Venkaiah
+
+
+SCHOOL OF COMPUTERS AND INFORMATION SCIENCES
+UNIVERSITY OF HYDERABAD
+
+DATE: --/--/--
+
+-------------------------------------------------------
+
+____________________________
+REUIREMENTS TO RUN THE GAME:|
+____________________________|
+
+SYSTEM REQUIREMETS:
+--------------------
+Operating System    :  LINUX , UBUNTU 12.04(or NEWER VERSION)
+PLATFORM(Language)  :  JAVA (or OLDER)
+RAM                 :  2GB
+PROCESSOR    :  INTEL CORE duo
+SOFTWARE     : NETBEANS 8 IDE
+                        (If Netbeans is not available please download using the link https://netbeans.org/downloads/)
+DATABASE     : MYSQL
+EXTRA           :1. MYSQL CONNECTOR(MYSQL.JAR)
+                            (If mysql is not available please download using the link  http://dev.mysql.com/downloads/file.php?id=13519)
+                        2. JAVA MAIL(MAIL.JAR) 
+                             (If SMTP is not available please download using the link http://www.oracle.com/technetwork/java/javamail/index.html)
+                        
+-------------------------
+INSTRUCTIONS TO RUN THE PROJECT:
+_________________________
+HOW TO RUN THE PROJECT CODE:|
+_________________________|
+----You can run  many ways 
+    --using click F6 
+    --using ctrl F11
+    --using green button in tool bar
+          _____________________
+          RUN SUCCESSFULL
+          _____________________
+          *******It display main menu****
+          In main menu there are six(6) button
+          ||DistributeShare||Verify||Reconstuct||Shares||Email||Contact||    
+              
+==== DistributeShare Button======
+        ----After click DistributeShare Button it will display worning message
+                _________________________________________
+                || Do You Want to Distribute Share click yes|| 
+                || otherwise No                                                ||
+                __________________________________________
+                Click no button for go previous page
+                If you click yes it will promoted to Login page
+                If you successfully login the page then it will display a new page which is  Distribute Share Page
+                In Distribute page there are three field as follows
+                ___________________________________________________________________________
+                First Field is Secret Field where you have set secret
+                Second Field you can set threshold(combination of how many shares able to open the secret)
+                Third Field  you can sent  shares to Participant(if you want to sent 4 participant then enter 3(three))
+                _____________________________________________________________________________ 
+====Verify====
+                This Button is basically for participant
+                After click Verify Button it display as like above 
+                If you click yes then then you can verify your shares(distribute by Dealer)
+                If your shares is correct then It display verification successful 
+                It your shares is  not correct then It will display verification fail or wrong share(Dealer sent you wrong share)
+====Reconstruct=====
+                The Dealer set threshold  and inform you that combination how many shares able to 
+                open the secret
+                According to threshold you can enter your id and shares
+                if your shares is OK then you can open other wise print wrong
+=====Email=====
+                In Email Button you can sent shares to your participants 
+                If shares sent your participant successfull it display Shares successfully sent
+                otherwise No                
+====Contact======       
+                Any problem or suggestion you can sent mail ..
+       
+   ****************Thanks you*******************              
